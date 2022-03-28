@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #eaeaea;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+  text-align: center;
+}
+
+.mainInfo span {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.795);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .mainInfo {
+    margin: 0.4rem;
+  }
+}
